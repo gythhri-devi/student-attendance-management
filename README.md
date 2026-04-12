@@ -2,6 +2,15 @@
 
 This is a Streamlit-based frontend application for interacting with MySQL databases.
 
+## Tech Stack
+| Layer         | Technology           |
+| ------------- | -------------------- |
+| Frontend      | Streamlit (Python)   |
+| Backend       | MySQL                |
+| Environment   | Python dotenv (.env) |
+| Data Handling | Pandas               |
+
+
 ## Setup Instructions
 
 1. Create a virtual environment (recommended):
