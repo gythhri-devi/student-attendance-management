@@ -49,3 +49,7 @@ You can customize the application by:
 - Never commit your `.env` file to version control
 - Use strong passwords for database access
 - Consider implementing user authentication for the Streamlit app # urban-system
+
+## Team 
+Gayathri Devi
+Aishani Mishra
