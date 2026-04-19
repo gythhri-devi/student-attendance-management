@@ -28,9 +28,9 @@ def get_db_connection():
     try:
         return mysql.connector.connect(
             host=os.getenv('DB_HOST', 'localhost'),
-            user=os.getenv('DB_USER', 'root'),
-            password=os.getenv('DB_PASSWORD', 'tiger'),
-            database=os.getenv('DB_NAME', 'dbms')
+            user=os.getenv('DB_USER', 'your_username'),
+            password=os.getenv('DB_PASSWORD', 'your_password'),
+            database=os.getenv('DB_NAME', 'your_database')
         )
     except mysql.connector.Error as err:
         st.error(f"Error connecting to MySQL: {err}")
